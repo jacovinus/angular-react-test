@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-react-test';
+  public counter = 21;
+
+  public handleOnClick(stateCounter: number) {
+    this.counter++;
+  }
 }
